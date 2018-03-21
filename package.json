@@ -1,0 +1,20 @@
+{
+  "name": "ys-mutify",
+  "version": "1.0.2",
+  "description": "nodejs cluster runtime",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=dev DEBUG=* node test/index.js -- --access=dev",
+    "post": "npm publish --access=public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:yskit/ys-mutify.git"
+  },
+  "dependencies": {
+    "async-events-listener": "^1.0.0",
+    "ipc-message": "^1.0.10",
+    "miox-compose": "^5.1.17",
+    "ys-utils": "^1.0.1"
+  }
+}
