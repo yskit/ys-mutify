@@ -1,6 +1,6 @@
 {
   "name": "ys-mutify",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "nodejs cluster runtime",
   "main": "index.js",
   "scripts": {
