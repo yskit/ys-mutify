@@ -1,6 +1,6 @@
 {
   "name": "ys-mutify",
-  "version": "1.0.13",
+  "version": "1.0.14",
   "description": "nodejs cluster runtime",
   "main": "index.js",
   "scripts": {
@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "async-events-listener": "^1.0.0",
+    "debug": "^3.1.0",
     "ipc-message": "^1.0.10",
     "miox-compose": "^5.1.17",
     "ys-utils": "^1.0.15"
